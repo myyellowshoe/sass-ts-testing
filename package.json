@@ -1,0 +1,20 @@
+{
+  "name": "example-sass-and-ts",
+  "description": "Testing components written in TypeScript with Sass imports",
+  "private": true,
+  "scripts": {
+    "check-coverage": "check-coverage src/App.tsx",
+    "cy:open": "cypress open",
+    "only-covered": "only-covered src/App.tsx",
+    "test": "cypress run"
+  },
+  "dependencies": {
+    "sass-loader": "10.0.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.20.1",
+    "cypress": "^6.2.1",
+    "@cypress/react": "^4.16.4",
+    "sass": "1.32.0"
+  }
+}
